@@ -1,0 +1,17 @@
+{
+  "name": "yousoftware_server",
+  "version": "0.0.1",
+  "description": "backend for yousoftware services",
+  "main": "src/server.js",
+  "author": "Yousof Mersal",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "devserver": "nodemon src/server/server.js",
+    "server": "node src/server/server.js"
+  }
+}
